@@ -18,5 +18,43 @@
 
 
 .page{
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: 'Inter';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  background-color:#2A2C2F;
+}
 
+.header{
+  padding-top: 28px;
+}
+
+.header__container{
+  max-width: 1184px;
+  border: 1px solid red;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.header__link{
+  margin-right: 18px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1.5rem;
+line-height: 1.75;
+padding-bottom: 0,375rem;
+color: #fff;
+}
+
+.header__link:last-of-type{
+  margin-right: 0;
+  text-decoration: none;
 }
