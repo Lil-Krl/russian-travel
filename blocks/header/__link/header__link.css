@@ -1,0 +1,15 @@
+.header__link{
+  margin-right: 18px;
+  font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+padding-bottom: 6px;
+color: #fff;
+}
+
+.header__link:last-of-type{
+  margin-right: 0;
+  text-decoration: none;
+}

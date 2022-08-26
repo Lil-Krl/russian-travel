@@ -1,0 +1,6 @@
+.intro{
+  padding: 92px 148px 0 148px;
+  color: #fff;
+  max-width: 690px;
+  width: calc(100% -148px * 2);
+}
