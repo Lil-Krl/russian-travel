@@ -27,6 +27,10 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  border: 1px solid red;
+}
+
+.root{
   background-color:#2A2C2F;
 }
 
@@ -100,6 +104,10 @@ text-align: center;
   padding-top: 64px;
 }
 
+.lead__figure-img{
+  width: 100%;
+}
+
 .lead__figure_figcaption{
   margin: 0;
   padding: 0;
@@ -163,4 +171,13 @@ font-style: normal;
 font-weight: 400;
 font-size: 12px;
 line-height: 18px;
+}
+
+.photo-grid{
+  max-width: 1184px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 16px;
 }
