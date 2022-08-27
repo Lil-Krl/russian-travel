@@ -5,10 +5,38 @@
   max-width: 1184px;
   min-height: 740px;
   background-image: url(../../../images/__background.jpg);
+  background-position: center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #fff;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1024px){
+  .cover__link{
+    margin: 0;
+    max-width: 1024px;
+    min-height: 640px;
+  }  
+}
+
+@media screen and (max-width: 768px){
+  .cover__link{
+    margin: 0;
+    padding-top: 90px;
+    max-width: 768px;
+    min-height: 480px;
+  }  
+}
+
+@media screen and (max-width: 320px){
+  .cover__link{
+    margin: 0;
+    padding-top: 66px;
+    max-width: 320px;
+    min-height: 200px;
+  }  
 }
