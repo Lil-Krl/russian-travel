@@ -13,3 +13,9 @@ transition: opacity .8s;
 .place__link:hover{
 opacity: 0.6;
 }
+
+@media screen and (max-width: 320px){
+  .place__link{
+    margin-left: 16px;
+  }
+}
