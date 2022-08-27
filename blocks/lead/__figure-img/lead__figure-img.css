@@ -1,3 +1,4 @@
 .lead__figure-img{
   width: 100%;
+  object-fit: cover;
 }
