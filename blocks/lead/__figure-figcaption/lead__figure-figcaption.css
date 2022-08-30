@@ -1,25 +1,25 @@
-.lead__figure_figcaption{
+.lead__figure_figcaption {
   margin: 0;
   padding: 0;
   padding-top: 8px;
-  font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 14px;
-letter-spacing: 0.15em;
-text-transform: uppercase;
-white-space: nowrap;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
-@media screen and (max-width: 768px){
-  .lead__figure_figcaption{
+@media screen and (max-width: 768px) {
+  .lead__figure_figcaption {
     margin-left: 24px;
   }
 }
 
-@media screen and (max-width: 320px){
-  .lead__figure_figcaption{
+@media screen and (max-width: 320px) {
+  .lead__figure_figcaption {
     margin-left: 16px;
   }
 }

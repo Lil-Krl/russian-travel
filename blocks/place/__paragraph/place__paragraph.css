@@ -1,13 +1,13 @@
-.place__paragraph{
+.place__paragraph {
   margin: 0;
   margin-bottom: 26px;
   padding: 0;
-  font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 29px;
-color: #fff;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #fff;
 }
 
 .place__paragraph:nth-of-type(2n) {
@@ -28,7 +28,7 @@ color: #fff;
 
 @media screen and (max-width: 320px) {
   .place__paragraph {
-      margin-left: 16px;
-      margin-right: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

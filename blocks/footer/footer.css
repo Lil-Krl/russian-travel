@@ -1,4 +1,4 @@
-.footer{
+.footer {
   max-width: 1184px;
   display: flex;
   margin: 0;
@@ -9,8 +9,8 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 768px){
-  .footer{
+@media screen and (max-width: 768px) {
+  .footer {
     margin-left: 24px;
     margin-right: 24px;
     margin-top: 88px;
@@ -18,8 +18,8 @@
   }
 }
 
-@media screen and (max-width: 320px){
-  .footer{
+@media screen and (max-width: 320px) {
+  .footer {
     margin-left: 16px;
     margin-right: 118px;
     margin-top: 64px;
