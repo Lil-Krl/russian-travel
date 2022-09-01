@@ -17,8 +17,7 @@
 
 @media screen and (max-width: 1024px) {
   .cover__link {
-    margin: 0;
-    margin-top: 92px;
+    margin: 92px 0 0 0;
     max-width: 1024px;
     min-height: 640px;
   }
@@ -26,8 +25,7 @@
 
 @media screen and (max-width: 768px) {
   .cover__link {
-    margin: 0;
-    margin-top: 90px;
+    margin: 90px 0 0 0;
     max-width: 768px;
     min-height: 480px;
   }
@@ -35,8 +33,7 @@
 
 @media screen and (max-width: 320px) {
   .cover__link {
-    margin: 0;
-    margin-top: 66px;
+    margin: 66px 0 0 0;
     max-width: 320px;
     min-height: 200px;
   }
